@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "712384085274",
+    "firebase_url": "https://gestion-des-examen.firebaseio.com",
+    "project_id": "gestion-des-examen",
+    "storage_bucket": "gestion-des-examen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712384085274:android:f8cb7fd48ff5312c",
+        "android_client_info": {
+          "package_name": "com.example.gestex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712384085274-ofgn4tg4ordubcn9pcgl6jkbtqar506o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlmxME73W6u57sRJfJubjpC3bgVDcyqKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712384085274-ofgn4tg4ordubcn9pcgl6jkbtqar506o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:src="@drawable/log"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <ImageButton
+            android:id="@+id/imgbnt"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/admin"
+            android:onClick="click"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="administration"
+
+            tools:ignore="HardcodedText" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/l1">
+
+        <ImageButton
+            android:id="@+id/img2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:onClick="click2"
+
+            android:src="@drawable/ens"
+            android:contentDescription="TODO" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:text="Enseignant(e)" />
+
+
+    </LinearLayout>
+</RelativeLayout>

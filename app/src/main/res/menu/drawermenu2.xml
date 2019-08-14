@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/gx1" android:title="gérer un examen" android:icon="@drawable/gx"></item>
+    <item android:id="@+id/et" android:title="consulter Etudiant" android:icon="@drawable/cx"></item>
+    <item android:id="@+id/time" android:title="Durée Examen" android:icon="@drawable/time"></item>
+    <item android:id="@+id/Lx1" android:title="Déconnecter" android:icon="@drawable/off"></item>
+
+</menu>

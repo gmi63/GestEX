@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GestExam</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="niveau">
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+    </string-array>
+
+    <string-array name="module">
+        <item>Module1</item>
+        <item>Module2</item>
+        <item>Module3</item>
+
+    </string-array>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+        \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+    </string>
+
+
+</resources>

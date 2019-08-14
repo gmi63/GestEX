@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/ajex" android:title="Ajouter un examen" android:icon="@drawable/ic_control_point"></item>
+    <item android:id="@+id/ajens" android:title="Ajouter Enseignant" android:icon="@drawable/ic_person_add"></item>
+    <item android:id="@+id/env" android:title="Envoyer" android:icon="@drawable/ic_contact_mail"></item>
+    <item android:id="@+id/cx1" android:title="Consulter la présence" android:icon="@drawable/ic_contact_mail"></item>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/off"></item>
+</menu>

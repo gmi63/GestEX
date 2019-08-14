@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_polygon"
+    android:padding="20dp">
+    <ImageView
+        android:src="@drawable/photo"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enseignant"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="29dp"
+        android:text=""
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

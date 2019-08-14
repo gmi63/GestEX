@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_polygon"
+    android:padding="20dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/photo"/>
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:text="admin@gmail.com"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/lxx2" android:title="Lancer un examen" android:icon="@drawable/lx"></item>
+    <item android:id="@+id/cx2" android:title="Voir la présence" android:icon="@drawable/cx15"></item>
+    <item android:id="@+id/Lx2" android:title="Déconnecter" android:icon="@drawable/off"></item>
+
+</menu>

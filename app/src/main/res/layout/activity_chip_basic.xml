@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_smlarge"
+            android:layout_marginRight="@dimen/spacing_smlarge"
+            android:gravity="center"
+            android:minHeight="?attr/actionBarSize"
+            android:text="To"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/grey_60" />
+
+        <com.pchmn.materialchips.ChipsInput
+            android:id="@+id/chips_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:chip_deletable="true"
+            app:maxRows="3"
+            app:showChipDetailed="false" />
+
+        <ImageButton
+            android:id="@+id/contacts"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_person_add" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_10" />
+
+    <EditText
+        android:id="@+id/Salle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_smlarge"
+        android:layout_marginRight="@dimen/spacing_smlarge"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:hint="Salle"
+        android:minHeight="?attr/actionBarSize"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="@color/grey_80" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_10" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_rounded_accent"
+        android:text="Envoyer"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>
